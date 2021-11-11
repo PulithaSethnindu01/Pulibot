@@ -25,7 +25,7 @@
   },
   "homepage": "https://lasiya.ml",
   "dependencies": {
-    "xtroid": "^1.4.0",
+    "pulibot": "^1.4.0",
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-lasi": "^1.2.1",
@@ -36,7 +36,7 @@
     "googlethis": "^1.0.7",
     "audiobuffer-to-wav": "1.0.0",
     "chalk": "^4.1.0",
-    "xtroid-npm": "^1.1.0",
+    "pulibot-npm": "^1.1.0",
     "coffeehouse": "^2.0.0",
     "cwebp": "^2.0.5",
     "search-engine-client": "^1.2.6",
