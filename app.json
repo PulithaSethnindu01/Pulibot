@@ -1,0 +1,192 @@
+{
+    "name": "Pulibot",
+    "description": "Coded By Pulitha Sethnindu",
+    "logo": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
+    "repository": "https://github.com/1XusernameX1/lizy",
+    "website":   "No websites yet",
+    "success_url": "https://t.me/danumabots",
+    "stack": "container",
+    "env": {
+        "A_PULIBOT_SESSION": {
+            "description": "Type here your Pulibot Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode;ඔබගේ බොත වෙත තවත් හිමිකරුවකු එක කිරීමට අදාල එම whatsapp අංකය මෙලෙස යොදන්න +94)",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": "Bot language. English => en, සිංහල => SI",
+            "required": true,
+            "value": "en"
+        },
+        "ANTİ_LİNK": {
+            "description": "⚠️Link Blocking System.⚠️ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": "Set true for auto date, time in biography.ඔබගේ විස්තරය කාලීනව වෙනස් වීමට (අවශ්‍ය නැතිනම් වෙනස් නොකරන්න )",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Donot change!.වෙනස් නොකරන්න!!!",
+            "required": true,
+            "value": "^[.!;#]"
+        },
+        "AI_LIZA": {
+            "description": "Type (true) to open artificial intelligence. : කෘතීම බුද්ධිය සක්‍රිය කිරීමට (true) ලෙස ලියන්න",
+            "required": true,
+            "value": "false"
+        },
+        "NO_LOG": {
+            "description": "Type (true) to stop error and log messeges. : ඔබගේම අංකයෙන් ඔබට ලැබෙන දෝෂ පණිවිඩ නවතාදැමීමට (true) ලෙස ලියන්න.",
+            "required": true,
+            "value": "true"
+        },
+        "SEND_READ": {
+            "description": "Write true if you want to throw seen.ඔබට පැමිණෙන පණිවිඩ BOTලවා seen කරවිමට",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "DO NOT CHANGE; වෙනස් කිරීමෙන් වලකින්න",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Heroku API Key.හෙරොකු API කේතය",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "Customizable Mute Message! Use => default, to change back. සමුහ වැසීමේ පණිවිඩයට ඔබට කැමති එකක් එකතු කිරීමට",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Choose in which chat the bot won't work there. (SL=94) (US=1)Ex: 9471xxxx && 9471xxxx-1xxx or 9471xxxx,9471xxx... /සමුහයක් හෝ පුද්ගලයෙකු අවහිර කිරීමට",
+            "required": false,
+            "value": "false"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Customizable Unmute Message! Use => default, to change back.සමුහ නැවත විවුර්ත කරීමේ පණිවිඩය ඔබට අවශ්‍ය ලෙස සකසා මෙහි දමන්න",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Customizable Block Message! Use => default, to change back. පුද්ගලයෙකු අවහිර කිරීමේ පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Customizable Unblock Message! Use => default, to change back.අවහිර කල අයෙකු නැවත කතා කිරීමට අවස්ථාව දීමේ පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "Xtroid bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
+            "required": true,
+            "value": "public"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.ඉහල පළමුවෙන්ම පිරවූ APP නාමය",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "NO need to change, වෙනස් කිරීමට අවශ්‍ය නැත",
+            "required": true,
+            "value": "false"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "Get API from https://remove.bg මෙම ලින්කුවෙන් ලබාගන්න https://remove.bg ",
+            "required": false
+        },
+        "GIF_WEL": {
+            "description": "set custom welcom gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "required": false
+        },
+        "GIF_BYE": {
+            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
+            "required": false
+        },
+        "ALIVEMSG": {
+            "description": "Customizable Alive Message!: ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
+            "required": false
+        },
+        "BAN_MESSAGE": {
+            "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "Customizable Add Message! Use => default, to change back.ඔබ විසින් යමෙකුව සමුහයට එකතුකිරිමේදී ලැබෙන පණිවිඩය. ",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "Customizable Kickme Message! Use => default, to change back.ඔබ සමුහයෙන් ඉවත් වීමේදී තබා එන අවසන් පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "Customizable Promote Message! Use => default, to change back.සමුහයේ යමෙකුගේ තනතුරු උසස් කිරීමේ පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "Customizable Demote Message! Use => default, to change back.තනතුරු පත්කිරීමේ පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Customizable AFK Message! Use => default, to change back.ඔබ දුරකතනයෙන් ඉවත්වන විට තබා යන පණිවිඩය",
+            "required": false,
+            "value": "default"
+        },
+        "NO_ONLINE": {
+            "description": "Type true if you don't want to appear online.ගිණුම online වසා තැබීමට",
+            "required": false,
+            "value": "true"
+        },
+        "EMOJI": {
+            "description": "This is Menu emoji you can cange it here: මෙනුවේ විධාන ඉමොජිය වෙනස් කිරීමට",
+            "required": false,
+            "value": "🔮"
+        },
+        "DEMOJI": {
+            "description": "This is Menu desc emoji you can cange it here: මෙනුවේ දෙවෙනි ඉමොජිය වෙනස් කිරීමට",
+            "required": false,
+            "value": "🪅"
+        },
+        "CP": {
+            "description": "This is Menu Caption of send media you can cange it here: bot ගෙන් send වෙන photo/video වල තිබිය යුතු නම වෙනස් කිරීමට",
+            "required": false,
+            "value": "•--» Pulibot «--•"
+        },
+        "ALIVEIMG": {
+            "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
+            "required": false,
+            "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
+        },
+        "SONDOWNMSG": {
+            "description": "Song downloading message;",
+            "required": true,
+            "value": "╭┄┄┉♫♪♫┉┄┄╮\n*Searching song➧*\n╰┄┄┉♫♪♫┉┄┄╯"
+        },
+        "SONGUPMSG": {
+            "description": "Song Uploading message;",
+            "required": true,
+            "value": ".ılı.—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫"
+        }
+
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
+  
