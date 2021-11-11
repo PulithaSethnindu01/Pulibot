@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/lasiyaWA/X-Troid /root/X-Troid
-WORKDIR /root/X-Troid/
+RUN git clone https://github.com/Pulithasethnindu/Pulibot /root/Pulibot
+WORKDIR /root/Pulibot/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
